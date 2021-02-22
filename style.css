@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+ 
+.container {
+      width: 375px;
+      height: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      /* background: #913f3f51; */
+  }
+
+
+.title {
+    display: flex;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: 218px;
+    width: 133px;
+    height: 25px;
+
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.scarecrow {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 286px;
+    height: 238px;
+}
+
+.bad-news {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 142px;
+
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+.the-page {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
+    width: 328px;
+    height: 81px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 114px;
+    width: 216px;
+    height: 68px;  
+    border: none;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #333333; 
+
+    cursor: pointer;
+}
+
+button:hover {
+    transition-duration: 300ms;
+    color: #fed165;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 287px;
+    height: 17px;
+}
+
+#created {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD
+}
+
+#username {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    Line-height: 17.07px;
+    text-align: Center;
+    color: #BDBDBD;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 850px) {
+    
+    .container {
+        width: 1000px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 105px;
+        width: 1000px;
+        height: 500px;
+        /* background: #913f3f51; */
+    }
+
+    .container-scarecrow {
+        display: inline-block;
+        width: 450px;
+        height: 450px;
+        /* background: #BDBDBD; */
+    }
+    
+    .container-text {
+        display: inline-block;
+        width: 400px;
+        height: 450px;
+        /* background: #BDBDBD; */
+        margin-left: 50px;
+    }
+
+     .scarecrow {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+    .bad-news {
+        width: 400px;
+        height: 190px;
+        font-size: 64px;
+        line-height: 65px;
+        letter-spacing: -0.035em;
+    }
+    .the-page {
+        width: 381px;
+        height: 108px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    footer {
+        margin-top: 200px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1190px) {
+    
+    .container {
+        width: 1200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-main {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 105px;
+        width: 1200px;
+        height: 500px;
+        /* background: #913f3f51; */
+    }
+
+    .container-scarecrow {
+        display: inline-block;
+        width: 500px;
+        height: 450px;
+        /* background: #BDBDBD; */
+    }
+    
+    .container-text {
+        display: inline-block;
+        width: 500px;
+        height: 450px;
+        /* background: #BDBDBD; */
+        margin-left: 120px;
+
+    }
+
+     .scarecrow {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+    .bad-news {
+        width: 586px;
+        height: 190px;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+    }
+    .the-page {
+        width: 381px;
+        height: 108px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    footer {
+        margin-top: 200px;
+    }
+    
+}
