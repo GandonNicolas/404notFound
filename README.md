@@ -10,15 +10,15 @@ DevChallenges.io
 
 <div align="center">
   <h3>
-    <a href="https://modest-dubinsky-7566ee.netlify.app/">
+    <a href="https://modest-dubinsky-7566ee.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/GandonNicolas/404notFound.git">
+    <a href="https://github.com/GandonNicolas/404notFound.git" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
